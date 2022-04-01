@@ -1,0 +1,20 @@
+
+.topo{
+    width: 414px;
+    height: 92px;
+    background-color: #CF2B2B;
+}
+
+.logo-topo{
+    font-family: 'Righteous';
+    font-size: 44px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.letras{
+    font-family: 'Roboto', sans-serif;
+    font: 18px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
