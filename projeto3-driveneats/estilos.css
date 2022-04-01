@@ -3,6 +3,8 @@
     width: 414px;
     height: 92px;
     background-color: #CF2B2B;
+    position: fixed;
+    margin-top: -100px;
 }
 
 .logo-topo{
@@ -10,6 +12,7 @@
     font-size: 44px;
     color: #FFFFFF;
     margin-left: 20px;
+    padding-top: 10px;
 }
 
 .letras{
@@ -18,18 +21,65 @@
     color: #FFFFFF;
     margin-left: 20px;
 }
-.prato{
-    font-family: 'Righteous';
-    font-size: 26px;
-
+.conteudo{
+    margin-top: 100px;
+}
+.categorias{
+    width: 414px;
+    margin-top: 20px;
 }
 
-.bebida{
+.titulo{
     font-family: 'Righteous';
     font-size: 26px;
+    margin-left: 20px;
+}
+.pedido{
+    width: 172px;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 9px;
 }
 
-.sobremesa{
-    font-family: 'Righteous';
-    font-size: 26px;
+.nome-item{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 13px;
+    margin-top: 5px;
+    color: #333333;
+}
+.descricao-item{
+    width: 147px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    margin-left: 13px;
+    margin-top: 7px;
+    color: #A6A6A6;
+}
+.valor-item{
+    width: 66px;
+    height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 13px;
+    margin-top: 7px;
+    color: #000000;
+}
+img{
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+    margin-left: 13px;
+    margin-top: 15px;
+}
+
+body{
+    background-color: #e5e5e5;
 }
