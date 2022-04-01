@@ -4,7 +4,8 @@
     height: 92px;
     background-color: #CF2B2B;
     position: fixed;
-    margin-top: -100px;
+    top: 0px;
+    left: 0px;
 }
 
 .logo-topo{
@@ -71,6 +72,13 @@
     margin-left: 13px;
     margin-top: 7px;
     color: #000000;
+}
+
+.finalizar{
+    width: 414px;
+    height: 92px;
+    background-color: #FFFFFF;
+    margin-top: 10px;
 }
 img{
     width: 144px;
