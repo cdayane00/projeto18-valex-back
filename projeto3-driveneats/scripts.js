@@ -20,7 +20,7 @@ function selecionaPrato(prato){
     console.log(item1)
     confirma(item1,item2,item3);
     pratoSelecionado = prato.querySelector(".nome-item").innerHTML;
-    valorPratoSelecionado = (prato.querySelector(".valor-item").querySelector("p").innerHTML);
+    valorPratoSelecionado = (prato.querySelector(".valor-item").querySelector("p").innerHTML).replace(",",".").replace("R$"," ");
     console.log(pratoSelecionado)
     console.log(valorPratoSelecionado)
 }
@@ -35,8 +35,8 @@ function selecionaBebida(bebida){
     item2=1;
     console.log(item2)
     confirma(item1,item2,item3);
-    let bebidaSelecionado = bebida.querySelector(".nome-item").innerHTML;
-    let valorBebidaSelecionado = (bebida.querySelector(".valor-item").querySelector("p").innerHTML);
+    bebidaSelecionado = bebida.querySelector(".nome-item").innerHTML;
+    valorBebidaSelecionado = (bebida.querySelector(".valor-item").querySelector("p").innerHTML).replace(",",".").replace("R$"," ");
     console.log(bebidaSelecionado)
     console.log(valorBebidaSelecionado)
 }
@@ -51,8 +51,8 @@ function selecionaSobremesa(sobremesa){
     item3=1;
     console.log(item3)
     confirma(item1,item2,item3);
-    let sobremesaSelecionado = sobremesa.querySelector(".nome-item").innerHTML;
-    let valorSobremesaSelecionado = (sobremesa.querySelector(".valor-item").querySelector("p").innerHTML);
+    sobremesaSelecionado = sobremesa.querySelector(".nome-item").innerHTML;
+    valorSobremesaSelecionado = (sobremesa.querySelector(".valor-item").querySelector("p").innerHTML).replace(",",".").replace("R$"," ");
     console.log(sobremesaSelecionado)
     console.log(valorSobremesaSelecionado)
 }
@@ -67,11 +67,29 @@ function confirma(item1,item2,item3){
     
 }
 
+function soma(){
+    let valor1 = Number(valorPratoSelecionado);
+    let valor2 = Number(valorBebidaSelecionado);
+    let valor3 = Number(valorSobremesaSelecionado);
+    console.log(valor1);
+    console.log(valor2);
+    console.log(valor3);
+    let soma = valor1+valor2+valor3;
+    soma.toFixed(1);
+    console.log(soma.toFixed(2));
+}
 
 function whatsWeb(){
-    let pedido = `Olá, gostaria de fazer o pedido:
-    - Prato: Frango Yin Yang
-    - Bebida: Coquinha Gelada
-    - Sobremesa: Pudim
-    Total: R$ 27.70`
+    let valor1 = Number(valorPratoSelecionado);
+    let valor2 = Number(valorBebidaSelecionado);
+    let valor3 = Number(valorSobremesaSelecionado);
+    let soma = valor1+valor2+valor3;
+
+    let pedido = `Olá, gostaria de fazer o pedido: \n - Prato: ${pratoSelecionado} \n
+    - Bebida: ${bebidaSelecionado} \n
+    - Sobremesa: ${sobremesaSelecionado} \n
+    Total: R$ ${soma.toFixed(2)} \n`
+
+    let uri = window.encodeURIComponent(pedido);
+    window.open(`https://wa.me/5592999999999?text= ${uri}`);
 }
