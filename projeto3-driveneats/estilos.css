@@ -24,7 +24,7 @@
 }
 .conteudo{
     margin-top: 100px;
-    margin-bottom: 110px;
+    margin-bottom: 130px;
 }
 .categorias{
     width: 414px;
@@ -37,6 +37,7 @@
     border: 0;
     cursor: pointer;
     width: 172px;
+    height: 216px;
     background-color: #FFFFFF;
     margin-left: 20px;
     margin-bottom: 10px;
@@ -87,6 +88,14 @@
     margin-left: 13px;
     margin-top: 7px;
     color: #000000;
+}
+
+ion-icon{
+    background-color: #32B72F;
+    width: 15.44px;
+    height: 15.44px;
+    margin-left: 95px;
+    margin-top: 0px;
 }
 
 .finalizar{

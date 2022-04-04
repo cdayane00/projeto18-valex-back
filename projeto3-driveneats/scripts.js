@@ -85,11 +85,15 @@ function whatsWeb(){
     let valor3 = Number(valorSobremesaSelecionado);
     let soma = valor1+valor2+valor3;
 
-    let pedido = `Olá, gostaria de fazer o pedido: \n - Prato: ${pratoSelecionado} \n
-    - Bebida: ${bebidaSelecionado} \n
-    - Sobremesa: ${sobremesaSelecionado} \n
-    Total: R$ ${soma.toFixed(2)} \n`
+    let pedido = `Olá, gostaria de fazer o pedido:
+    - Prato: ${pratoSelecionado}
+    - Bebida: ${bebidaSelecionado}
+    - Sobremesa: ${sobremesaSelecionado}
+    Total: R$ ${soma.toFixed(2)} \n
+    Nome: ${prompt(`Qual seu nome?`)}
+    Endereço: ${prompt(`Qual seu endereço?`)}`
 
     let uri = window.encodeURIComponent(pedido);
-    window.open(`https://wa.me/5592999999999?text= ${uri}`);
+    window.open(`https://wa.me/5592999979992?text= ${uri}`);
 }
+
