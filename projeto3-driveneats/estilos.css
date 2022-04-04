@@ -1,6 +1,6 @@
 
 .topo{
-    width: 414px;
+    width: 100%;
     height: 92px;
     background-color: #CF2B2B;
     position: fixed;
@@ -99,10 +99,10 @@ ion-icon{
 }
 
 .finalizar{
-    width: 414px;
+    width: 100%;
     height: 92px;
     background-color: #FFFFFF;
-    top: 560px;
+    bottom: 0px;
     padding-top: 15px;
     padding-left: 22px;
     box-sizing: border-box;
@@ -110,10 +110,10 @@ ion-icon{
     
 }
 .fechar{
-    width: 414px;
+    width: 100%;
     height: 92px;
     background-color: #FFFFFF;
-    top: 560px;
+    bottom: 0px;
     padding-top: 15px;
     padding-left: 22px;
     box-sizing: border-box;
