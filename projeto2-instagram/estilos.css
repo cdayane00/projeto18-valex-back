@@ -1,0 +1,525 @@
+
+/* Layout Desktop Completo */
+
+/* -------TOPO------- */
+.topo{
+    background: #FFFFFF;
+    width: 1366px;
+    height: 54px;
+    border: 1px solid #DBDBDB;
+    position: absolute;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -90px;
+    z-index: 2;
+}
+.topo-logo-insta{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 215px;
+    margin-top: 13px;
+}
+.topo-logo{
+    position: absolute;
+    margin-left: 255px;
+    margin-top: 13px;
+}
+.topo-pesquisa{
+    width: 215px;
+    height: 28px;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 575px;
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.pesquisar{
+    position: absolute;
+    width: 215px;
+    height: 26px;
+    margin-left: 80px;
+    margin-top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #979797;
+}
+.logo-direct{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 15px;
+}
+.logo-explorar{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 1040px;
+    margin-top: 15px;
+}
+.logo-curtida{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 1080px;
+    margin-top: 15px;
+}
+.logo-perfil{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 1120px;
+    margin-top: 15px;
+}
+
+/* -------STORIES------- */
+.stories{
+    width: 614px;
+    height: 118px;
+    margin-left: 215px;
+    margin-top:88px;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+}
+.background{
+    width: 66px;
+    height: 66px;
+    margin-left: 16px;
+    margin-top: 13px;
+}
+.setinha{
+    position: absolute;
+    margin-left: 590px;
+    margin-top: 43px;
+    background-color: #FFFFFF;
+}
+
+.imagemStories{
+    position: absolute;
+    width: 58px;
+    height: 56px;
+    margin-left: -62px;
+    margin-top: 19.3px;
+    border-radius: 26px;
+}
+.nomeStories1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    width: 58px;
+    height: 19px;
+
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 85px;
+    color: #262626;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nomeStories2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    width: 58px;
+    height: 19px;
+
+    position: absolute;
+    margin-left: 102px;
+    margin-top: 85px;
+    color: #262626;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nomeStories3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    width: 58px;
+    height: 19px;
+
+    position: absolute;
+    margin-left: 184px;
+    margin-top: 85px;
+    color: #262626;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nomeStories4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    width: 58px;
+    height: 19px;
+
+    position: absolute;
+    margin-left: 266px;
+    margin-top: 85px;
+    color: #262626;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nomeStories5{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    width: 58px;
+    height: 19px;
+
+    position: absolute;
+    margin-left: 348px;
+    margin-top: 85px;
+    color: #262626;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nomeStories6{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    width: 58px;
+    height: 19px;
+
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 85px;
+    color: #262626;
+    display: flex;
+    justify-content: space-around;
+}
+.nomeStories7{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    width: 58px;
+    height: 19px;
+
+    position: absolute;
+    margin-left: 512px;
+    margin-top: 85px;
+    color: #262626;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* -------CONTEUDO------- */
+.conteudo{
+    width: 614px;
+    height: 740px;
+    margin-left: 215px;
+    margin-top: 24px;
+    margin-bottom: 36px;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.perfil1{
+    width: 32px;
+    height: 32px;
+    margin-left: 13px;
+    margin-top: 13px;
+    border-radius: 16px;
+}
+.antonio{
+    width: 109px;
+    height: 21px;
+    margin-left: 55px;
+    margin-top: -25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626
+}
+.pontinhos1{
+    margin-top: -20px;
+    margin-left: 566px;
+    position: absolute;
+}
+.fotoAntonio{
+    width: 613px;
+    height: 590px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.conteudo-curtida{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 10px;   
+}
+.conteudo-chat{
+
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 10px;      
+}
+.conteudo-direct{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 10px;
+}
+.conteudo-salve{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 566px;
+    margin-top: 10px;
+}
+.driven{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 16px;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+.curtidas{
+    margin-left: 35px;
+    margin-top: 43px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+/* -------SIDEBAR------- */
+.sidebar{
+    width: 293px;
+    height: 450px;
+    background-color: #FFFFFF;
+    margin-top: -2470px;
+    margin-left: 850px; 
+}
+.meme1{
+    width: 56px;
+    height: 56px;
+    margin-left: 8px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.nomeMeme1{
+    width: 100px;
+    height: 34px;
+    margin-left: 75px;
+    margin-top: -45px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+.catana{
+    color: gray;
+}
+.divisao{
+    width: 293px;
+    height: 9px;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+}
+.sugestao{
+    margin-top: 10px;
+    margin-left: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: gray;
+}
+.verTudo{
+    margin-top: -12px;
+    margin-left: 230px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+.variasContas{
+    width: 293px;
+    height: 250px;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: #FFFFFF;
+}
+.conta1{
+    width: 293px;
+    height: 40px;
+    margin-left: 0px;
+    margin-top: 10px;
+    background-color: #FFFFFF;
+}
+.meme2{
+    width: 32px;
+    height: 32px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 16px;
+}
+.infoContas{
+    width: 100px;
+    height: 34px;
+    margin-left: 45px;
+    margin-top: -30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+.seguir{
+    margin-left: 200px;
+    margin-top: -20px;
+    color: #139EF2;
+}
+.sobre{
+    width: 290px;
+    height: 42px;
+    margin-left: 5px;
+    margin-top: 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #C7C7C7;
+}
+.info{
+    width: 290px;
+    height: 42px;
+    margin-left: 5px;
+    margin-top: 11px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #C7C7C7;
+}
+
+/* Layout Desktop Sem Sidebar */
+
+@media (max-width:935px){
+    .sidebar{
+        display: none;
+    }
+
+    .stories{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .conteudo{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .topo-logo-insta{
+        margin-left: 20px;
+    }
+    .topo-logo{
+        margin-left: 60px;
+    }
+    .topo-pesquisa{
+        margin-left: 380px;
+    }
+    .logo-direct{
+        margin-left: 770px;
+    }
+    .logo-explorar{
+        margin-left: 810px;
+    }
+    .logo-curtida{
+        margin-left: 850px;
+    }
+    .logo-perfil{
+        margin-left: 890px;
+    }
+}
+
+/* Layout Mobile */
+
+@media (max-width:614px){
+    .topo{
+        margin-top: -52px;
+    }
+    .stories{
+        width: 614px;
+        height: 118px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:50px;
+        border: none;
+    }
+    .setinha{
+        display: none;
+    }
+    .conteudo{
+        width: 614px;
+        height: 740px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+    }
+    .topo-logo{
+        margin-left: 280px;
+    }
+    .topo-pesquisa{
+        display: none;
+    }
+    .logo-direct{
+        margin-left: 570px;
+    }
+    .logo-explorar{
+        display: none;
+    }
+    .logo-curtida{
+        display: none;
+    }
+    .logo-perfil{
+        display: none;
+    }
+}
+
+
+
